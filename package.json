@@ -1,0 +1,19 @@
+{
+  "name": "telegram-logger-bot",
+  "version": "0.0.1",
+  "description": "Receive your app logs from telegram bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telegram",
+    "log",
+    "logger"
+  ],
+  "author": "Sergey Gavruk <svgavruk@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "0.27.1"
+  }
+}
