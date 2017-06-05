@@ -23,10 +23,15 @@ class TelegramLogger {
       if (authPassword === password) {
         if (!this.chatIds.find(x => x === chatId)) {
           this.chatIds.push(chatId)
+          this.onNewChat(chatId);
         }
         this.bot.sendMessage(chatId, `Subscribed to ${name}`);
       }
     });
+  }
+
+  setChatIds(chatIds) {
+    this.chatIds = chatIds || [];
   }
 
   fnLog(...args) {
