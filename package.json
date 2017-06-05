@@ -1,6 +1,6 @@
 {
   "name": "telegram-logger-bot",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Receive your app logs from telegram bot",
   "main": "index.js",
   "scripts": {
